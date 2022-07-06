@@ -11,6 +11,7 @@ function sumOfNumbers(arrayOfNumbers) {
     }
     return total;
 }
+assignment.sumOfNumbers = sumOfNumbers;
 
 function countEvenNumbers(arrayOfNumbers) {
     let count = 0;
@@ -21,6 +22,7 @@ function countEvenNumbers(arrayOfNumbers) {
     }
     return count;
 }
+assignment.countEvenNumbers = countEvenNumbers;
 
 function celsiusToFahrenheit(arrayOfNumbers) {
     let arrayOfFahr = arrayOfNumbers.map((x)=>{
@@ -29,7 +31,7 @@ function celsiusToFahrenheit(arrayOfNumbers) {
     })
     return arrayOfFahr
 }
-// assignment.celsiusToFahrenheit = celsiusToFahrenheit;
+assignment.celsiusToFahrenheit = celsiusToFahrenheit;
 
 
 // ========================
