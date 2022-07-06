@@ -60,6 +60,8 @@ function celsiusToFahrenheit(arrayOfNumbers) {
     })
     return arrayOfFahr
 }
+// assignment.celsiusToFahrenheit = celsiusToFahrenheit;
+
 
 // ========================
 // DO NOT EDIT THIS BLOCK
